@@ -1,0 +1,119 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf)format(ttf),
+    url(../fonts/Vazir.woff)format(woff),
+    url(../fonts/Vazir.woff2)format(woff2),;
+}
+@font-face {
+    font-family: tanha;
+    src: url(../fonts/تنها.ttf)format(ttf),
+    url(../fonts/تنها.woff)format(woff),
+    url(../fonts/تنها.woff2)format(woff2);
+}
+/* انتخاب سیستم عامل */
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../../picture/کهکشان\ 11.jpg);
+    background-size: cover;
+    direction: rtl;
+}
+.laptop-box{
+    width: 120px;
+    height: 120px;
+    background-color: #2e885e;
+    color: #fff;
+    top: 40%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 0 100px 200px 0 #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.laptop-box:hover{
+    
+    background-color: #882e6a;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 0.75rem;
+}
+.mobile-box{
+    width: 120px;
+    height: 120px;
+    background-color: #2e885e;
+    color: #fff;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 0 100px 200px 0 #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.mobile-box:hover{
+    background-color: #882e6a;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 0.75rem;
+}
+h1{
+    font-family: vazir;
+    font-size: 30px;
+    color: #00ffbf;
+    margin-top: 13%;
+    margin-right: 36%;
+}
+@media screen and (max-width:270px){
+    h1{
+        width: 250px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-right: 4%;
+        margin-top: 40%;
+        background-color: #2e8888;
+        text-align: center;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    body{
+        background: url(../../picture/تصویر-زمینه-کهکشان-بنفش.jpg);
+        background-size: cover;
+    }
+    .laptop-box{
+        width: 80px;
+        height: 80px;
+        left: 75%;
+    }
+    .mobile-box{
+        width: 80px;
+        height: 80px;
+        left: 25%;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        margin-right: 16px;
+        margin-top: 1rem;
+    }
+}
+/* پایان انتخاب سیستم عامل */
