@@ -1,0 +1,100 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf)format(ttf),
+    url(../fonts/Vazir.woff)format(woff),
+    url(../fonts/Vazir.woff2)format(woff2),;
+}
+@font-face {
+    font-family: tanha;
+    src: url(../fonts/تنها.ttf)format(ttf),
+    url(../fonts/تنها.woff)format(woff),
+    url(../fonts/تنها.woff2)format(woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ... */
+body{
+    background: url(../picture/کهکشان\ 2.jpg) 
+}
+body{
+    background-size: cover;
+    background-position: center center;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.section_nav{
+       width: 100%;
+       background-color: #2e4388;
+       height: 500px;
+       margin-top: 4rem;
+       border-radius: 12px; 
+       -webkit-border-radius:12px ;
+       -moz-border-radius:12px ;
+       -ms-border-radius:12px ;
+       -o-border-radius:12px ;
+       box-shadow: 0 100px 200px 0 #000;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.box-img-log{
+    padding: 5rem 100px;
+}
+.center_nav h1{
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.center_nav{
+    width: 100%;
+    padding: 0 100px;
+    color: #fff;
+}
+.center_nav h1{
+    color: #009bca;
+    font-family: vazir;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+}
+.center_nav h3{
+    color: #8be4ff;
+    padding: 1rem 0.05rem;
+    font-family: tanha;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+}
+.center_nav a{
+    padding: center;
+    list-style-type: none;
+    text-decoration: none;
+    border-width: medium;
+    border-radius: 1rem;
+    align-items: center;
+    margin-right: 6.5rem;
+    font-family: tanha
+}
+a.btn-start {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-top: 1rem;
+    background-color: #088;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid #044;
+    transition: 1s;
+}
+a.btn-start:hover{
+    background-color: #ff52f6;
+    border-bottom: 2px solid rgb(181, 0, 187);
+}
+
+/* end ... */
