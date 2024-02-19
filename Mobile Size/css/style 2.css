@@ -1,0 +1,481 @@
+@media screen and (max-width:270px){
+    @font-face {
+        font-family: vazir;
+        src: url(../fonts/Vazir.eot);
+        src: url(../fonts/Vazir.ttf)format(ttf),
+        url(../fonts/Vazir.woff)format(woff),
+        url(../fonts/Vazir.woff2)format(woff2),;
+    }
+    @font-face {
+        font-family: tanha;
+        src: url(../fonts/تنها.ttf)format(ttf),
+        url(../fonts/تنها.woff)format(woff),
+        url(../fonts/تنها.woff2)format(woff2);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        direction: rtl;
+    }
+    /* menu */
+        .container1{
+            max-width: 1600px;
+            height: 16px;
+            margin: 0 auto;
+        }
+        .section-nav1{
+            width: 100%;
+            background-color: #000e3a;
+            margin-top: fixed;
+            box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
+            padding: 0.2rem 1rem;
+            justify-content: space-between;
+        }
+        .right-nav1{
+            height: 100%;
+        }
+        .box-img-log1{
+            min-width: 50px;
+        }
+        .d-flex{
+            display: flex;
+        }
+        .align-items-center{
+            align-items: center;
+        }
+        h3{
+            color: #009bca;
+            font-family: vazir;
+            font-size: 14px;
+            text-shadow: 0.1rem 0.1rem 0.8rem #000;
+            padding: 1rem;
+            margin-right: -2rem;
+        }
+        .landing{
+            position: relative;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 6vh;
+            z-index: -1;
+        }
+        .home-wrap{
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+        }
+        .home-inner{
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background: url(../picture/کهکشان\ 5.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        #toggle_nav:checked + label + ul{
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+        #toggle_nav:checked + label span:first-child{
+            transform: rotate(127deg);
+            -webkit-transform: rotate(127deg);
+            -moz-transform: rotate(127deg);
+            -ms-transform: rotate(127deg);
+            -o-transform: rotate(127deg);
+            position: relative;
+            top: -5px;
+        }
+        #toggle_nav:checked + label span.line_mid{
+            transform: translateX(10px);
+            -webkit-transform: translateX(10px);
+            -moz-transform: translateX(10px);
+            -ms-transform: translateX(10px);
+            -o-transform: translateX(10px);
+            opacity: 0;
+        }
+        #toggle_nav:checked + label span:last-child{
+            position: relative;
+            top: -15px;
+            transform: rotate(58deg);
+            -webkit-transform: rotate(58deg);
+            -moz-transform: rotate(58deg);
+            -ms-transform: rotate(58deg);
+            -o-transform: rotate(58deg);
+        }
+        .list_nav_mobile{
+            position: fixed;
+            right: 0;
+            background-color: #000e3a;
+            height: 100%;
+            top: 0;
+            width: 150px;
+            transform: translateX(350px);
+            -webkit-transform: translateX(350px);
+            -moz-transform: translateX(350px);
+            -ms-transform: translateX(350px);
+            -o-transform: translateX(350px);
+            transition: all 0.4s ease-out;
+            -webkit-transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -ms-transition: all 0.4s ease-out;
+            -o-transition: all 0.4s ease-out;
+            padding: 2rem 1rem 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 2.5rem;
+            text-align: right;
+            overflow-x: hidden;
+        }
+        .list_nav_mobile li{
+            font-family: tanha;
+            list-style: none;
+        }
+        .list_nav_mobile li.line_login{
+            margin-top: 100px;
+            text-shadow: 0.1rem 0.1rem 0.8rem #000;
+            list-style-type: none;
+            display: inline-block;
+            padding: 0.2em 0.5em;
+            background-color: rgb(164, 0, 230);
+            color: #59008d;
+            text-decoration: none;
+            border-radius: 0.2em;
+            -webkit-border-radius: 0.2em;
+            -moz-border-radius: 0.2em;
+            -ms-border-radius: 0.2em;
+            -o-border-radius: 0.2em;
+            border-bottom: 2px solid rgb(47, 0, 68);
+            transition: 0.8s;
+            -webkit-transition: 0.8s;
+            -moz-transition: 0.8s;
+            -ms-transition: 0.8s;
+            -o-transition: 0.8s;
+            text-align: center;
+        }
+        .line{
+            border-bottom: 2px solid #90dfff;
+            width: 14px;
+            display: block;
+            margin-bottom: 3px;
+            transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+        }
+        .label_toggle_nav{
+            position: relative;
+            top: 1.65rem;
+        }
+        a{
+            text-decoration: none;
+            color: #90dfff;
+            font-size: 12px;
+        }
+        .landing{
+            position: relative;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 6vh;
+            z-index: -1;
+        }
+        .home-wrap{
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+        }
+        .home-inner{
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background: url(../../picture/کهکشان\ 3.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        /* end menu */
+        /* صفحه اصلی */
+        .button {
+            display: inline-block;
+            width: 150px;
+            background-color: rgba(33, 207, 164, 0.815);
+            color: rgb(17, 74, 160);
+            text-decoration: none;
+            border-radius: 1.2em;
+            border-bottom: 2px solid #044;
+            transition: 1s;
+            margin-top: 70px;
+            margin-left: 45px;
+            margin-right: 45px;
+            font-size: 10px;
+            padding: 0.5rem;
+            font-family: tanha;
+            text-align: center;
+            font-weight: bold;
+            -webkit-border-radius: 1.2em;
+            -moz-border-radius: 1.2em;
+            -ms-border-radius: 1.2em;
+            -o-border-radius: 1.2em;
+        }
+        
+        .button:hover {
+            background-color: rgba(115, 9, 177, 0.795);
+            border-bottom: 2px solid rgb(49, 0, 68);
+            box-shadow: rgba(0, 0, 0, 0.658);
+            color: aqua;
+        }
+}
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf)format(ttf),
+    url(../fonts/Vazir.woff)format(woff),
+    url(../fonts/Vazir.woff2)format(woff2),;
+}
+@font-face {
+    font-family: tanha;
+    src: url(../fonts/تنها.ttf)format(ttf),
+    url(../fonts/تنها.woff)format(woff),
+    url(../fonts/تنها.woff2)format(woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+    .container1{
+        max-width: 1600px;
+        height: 16px;
+        margin: 0 auto;
+    }
+    .section-nav1{
+        width: 100%;
+        background-color: #000e3a;
+        margin-top: fixed;
+        box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
+        padding: 0.2rem 1rem;
+        justify-content: space-between;
+    }
+    .right-nav1{
+        height: 100%;
+    }
+    .box-img-log1{
+        min-width: 50px;
+    }
+    .d-flex{
+        display: flex;
+    }
+    .align-items-center{
+        align-items: center;
+    }
+    h3{
+        color: #009bca;
+        font-family: vazir;
+        font-size: 14px;
+        text-shadow: 0.1rem 0.1rem 0.8rem #000;
+        padding: 1rem;
+        margin-right: -2rem;
+    }
+    .landing{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 6vh;
+        z-index: -1;
+    }
+    .home-wrap{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .home-inner{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background: url(../picture/کهکشان\ 5.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #toggle_nav:checked + label + ul{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    #toggle_nav:checked + label span:first-child{
+        transform: rotate(127deg);
+        -webkit-transform: rotate(127deg);
+        -moz-transform: rotate(127deg);
+        -ms-transform: rotate(127deg);
+        -o-transform: rotate(127deg);
+        position: relative;
+        top: -5px;
+    }
+    #toggle_nav:checked + label span.line_mid{
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px);
+        opacity: 0;
+    }
+    #toggle_nav:checked + label span:last-child{
+        position: relative;
+        top: -15px;
+        transform: rotate(58deg);
+        -webkit-transform: rotate(58deg);
+        -moz-transform: rotate(58deg);
+        -ms-transform: rotate(58deg);
+        -o-transform: rotate(58deg);
+    }
+    .list_nav_mobile{
+        position: fixed;
+        right: 0;
+        background-color: #000e3a;
+        height: 100%;
+        top: 0;
+        width: 150px;
+        transform: translateX(350px);
+        -webkit-transform: translateX(350px);
+        -moz-transform: translateX(350px);
+        -ms-transform: translateX(350px);
+        -o-transform: translateX(350px);
+        transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        padding: 2rem 1rem 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2.5rem;
+        text-align: right;
+        overflow-x: hidden;
+    }
+    .list_nav_mobile li{
+        font-family: tanha;
+        list-style: none;
+    }
+    .list_nav_mobile li.line_login{
+        margin-top: 100px;
+        text-shadow: 0.1rem 0.1rem 0.8rem #000;
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.2em 0.5em;
+        background-color: rgb(164, 0, 230);
+        color: #59008d;
+        text-decoration: none;
+        border-radius: 0.2em;
+        -webkit-border-radius: 0.2em;
+        -moz-border-radius: 0.2em;
+        -ms-border-radius: 0.2em;
+        -o-border-radius: 0.2em;
+        border-bottom: 2px solid rgb(47, 0, 68);
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+        text-align: center;
+    }
+    .line{
+        border-bottom: 2px solid #90dfff;
+        width: 14px;
+        display: block;
+        margin-bottom: 3px;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+    }
+    .label_toggle_nav{
+        position: relative;
+        top: 1.65rem;
+    }
+    a{
+        text-decoration: none;
+        color: #90dfff;
+        font-size: 12px;
+    }
+    .landing{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 6vh;
+        z-index: -1;
+    }
+    .home-wrap{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .home-inner{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background: url(../../picture/کهکشان\ 3.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .button {
+        display: inline-block;
+        width: 150px;
+        background-color: rgba(33, 207, 164, 0.815);
+        color: rgb(17, 74, 160);
+        text-decoration: none;
+        border-radius: 1.2em;
+        border-bottom: 2px solid #044;
+        transition: 1s;
+        margin-top: 70px;
+        margin-left: 45px;
+        margin-right: 45px;
+        font-size: 10px;
+        padding: 0.5rem;
+        font-family: tanha;
+        text-align: center;
+        font-weight: bold;
+        -webkit-border-radius: 1.2em;
+        -moz-border-radius: 1.2em;
+        -ms-border-radius: 1.2em;
+        -o-border-radius: 1.2em;
+    }
+    
+    .button:hover {
+        background-color: rgba(115, 9, 177, 0.795);
+        border-bottom: 2px solid rgb(49, 0, 68);
+        box-shadow: rgba(0, 0, 0, 0.658);
+        color: aqua;
+    }
+    
+        /* پایان صفحه اصلی */
