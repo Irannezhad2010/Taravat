@@ -1,0 +1,177 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf)format(ttf),
+    url(../fonts/Vazir.woff)format(woff),
+    url(../fonts/Vazir.woff2)format(woff2),;
+}
+@font-face {
+    font-family: tanha;
+    src: url(../fonts/تنها.ttf)format(ttf),
+    url(../fonts/تنها.woff)format(woff),
+    url(../fonts/تنها.woff2)format(woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ادبیات بومی(2) */
+body{
+    direction: rtl;
+}
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    right: 12%;
+
+}
+.section_nav{
+       width: 100%;
+       background-color: #ffffff;
+       height: 640px;
+       margin-top: 0.5rem;
+       margin-bottom: 3rem;
+       border-radius: 12px; 
+       -webkit-border-radius: 12px;
+       -moz-border-radius:12px ;
+       -ms-border-radius:12px ;
+       -o-border-radius:12px ;
+       box-shadow: 0 10px 20px 0 #000;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.landing{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.home-wrap{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.home-wrap{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: url(../picture/کهکشان\ 12.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+button{
+    font-family: tanha;
+    width: 900px;
+    height: 60px;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: rgba(29, 29, 255, 0.945);
+    font-size: 2.1em;
+    color: rgb(86, 241, 247);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+h1{
+    color: black;
+    margin-left: 20px;
+    font-family: tanha;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0%;
+    text-align: center;
+    padding: 10px;
+}
+.button1{
+    width: 100px;
+    height: 0;
+    background-color: white;
+}
+.btn-start1{
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    background-color: rgb(142, 242, 255);
+    color: #006eff;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid rgb(0, 243, 243);
+    transition: 1s;
+    font-family: tanha;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    margin-right: 300px;
+    margin-top: 5rem;
+}
+.btn-start1:hover{
+    background-color: rgb(136, 0, 118);
+    border-bottom: 2px solid rgb(68, 0, 3);
+    color: #ffffff;
+}
+.btn-start2{
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    background-color: rgb(255, 0, 242);
+    color: #320344;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid rgb(151, 24, 141);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    font-family: tanha;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    margin-right: 200px;
+    margin-top: 1rem;
+}
+.btn-start2:hover{
+    background-color: rgb(36, 255, 208);
+    border-bottom: 2px solid rgb(0, 187, 146);
+    color: #2600ff;
+}
+audio{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 23rem;
+}
+/* پایان ادبیات بومی(2) */
+.container2{
+    max-width: 1000px;
+}
+.left2{
+    width: 100%;
+    height: 40px;
+}
+.img a{
+    font-family: tanha;
+    font-size: 14px;
+    background-color: #59008d;
+    margin-bottom: 2rem;
+    padding: 6px;
+    margin-right: 2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
