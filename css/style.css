@@ -1,0 +1,300 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf)format(ttf),
+    url(../fonts/Vazir.woff)format(woff),
+    url(../fonts/Vazir.woff2)format(woff2),;
+}
+@font-face {
+    font-family: tanha;
+    src: url(../fonts/تنها.ttf)format(ttf),
+    url(../fonts/تنها.woff)format(woff),
+    url(../fonts/تنها.woff2)format(woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Menu */
+body{
+    direction: rtl;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.section-nav{
+    width: 100%;
+    background-color: #000e3a;
+    margin-top: fixed;
+    margin-left: fixed;
+    margin-right: fixed;
+    box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
+    padding: 0.2rem 1rem;
+    justify-content: space-between;
+}
+.right-nav{
+    height: 100%;
+    gap: 10px;
+}
+.box-img-log{
+    min-width: 50px;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+h3{
+    color: #009bca;
+    font-family: vazir;
+    font-size: 20px;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+    padding: 1rem;
+}
+.center-nav{
+    width: 30%;
+}
+.center-nav ul{
+    justify-content: space-between;
+    height: 100%;
+    margin-left: -30px;
+}
+.center-nav ul li{
+    font-family: tanha;
+    font-size: 15px;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #8be4ff;
+}
+.left-nav ul li{
+    font-family: tanha;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: aqua;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid #044;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.left-nav a{
+    color: #005670;
+    font-size: 12px;
+}
+.active{
+    background-image: linear-gradient(71deg ,#90dfff, 50% ,#008bc2);
+    color: #030099;
+    padding: 0.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: bold;
+}
+.landing{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 6vh;
+    z-index: -1;
+}
+.home-wrap{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.home-inner{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: url(../picture/کهکشان\ 5.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* End Menu */
+/* Button */
+/* Mobile Size */
+.button {
+    display: inline-block;
+    width: 300px;
+    background-color: rgba(33, 207, 164, 0.815);
+    color: rgb(17, 74, 160);
+    text-decoration: none;
+    border-radius: 1.2em;
+    border-bottom: 2px solid #044;
+    transition: 1s;
+    margin: 30px;
+    margin-left: 50px;
+    font-size: 25px;
+    padding: 1rem;
+    font-family: tanha;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 250px;
+}
+
+.button:hover {
+    background-color: rgba(115, 9, 177, 0.795);
+    border-bottom: 2px solid rgb(49, 0, 68);
+    box-shadow: rgba(0, 0, 0, 0.658);
+    color: aqua;
+}
+/* End Button */
+/* Fitt Size */
+#toggle_nav:checked + label + ul{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+#toggle_nav:checked + label span:first-child{
+    transform: rotate(127deg);
+    -webkit-transform: rotate(127deg);
+    -moz-transform: rotate(127deg);
+    -ms-transform: rotate(127deg);
+    -o-transform: rotate(127deg);
+    position: relative;
+    top: -5px;
+}
+#toggle_nav:checked + label span.line_mid{
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    opacity: 0;
+}
+#toggle_nav:checked + label span:last-child{
+    position: relative;
+    top: -15px;
+    transform: rotate(58deg);
+    -webkit-transform: rotate(58deg);
+    -moz-transform: rotate(58deg);
+    -ms-transform: rotate(58deg);
+    -o-transform: rotate(58deg);
+}
+@media screen and (max-width:1000px){
+    .box-img-log{
+        min-width: 30px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    .center-nav ul li{
+        font-size: 12px;
+    }
+    .left-nav ul li{
+        font-size: 12px;
+    }
+    .active{
+        padding: 6px;
+    }
+    .button{
+        margin-right: 325px;
+    }
+}
+@media screen and (min-width:651px){
+    .nav_mobile{
+        display: none;
+    }
+}
+@media screen and (max-width:651px){
+    .center-nav{
+        display: none;
+    }
+    .left-nav{
+        display: none;
+    }
+    .list_nav_mobile{
+        position: fixed;
+        right: 0;
+        background-color: #000e3a;
+        height: 100%;
+        top: 0;
+        width: 150px;
+        transform: translateX(350px);
+        -webkit-transform: translateX(350px);
+        -moz-transform: translateX(350px);
+        -ms-transform: translateX(350px);
+        -o-transform: translateX(350px);
+        transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        padding: 2rem 1rem 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2.5rem;
+        text-align: right;
+        overflow-x: hidden;
+    }
+    .list_nav_mobile li{
+        font-family: tanha;
+        list-style: none;
+    }
+    .list_nav_mobile li.line_login{
+        margin-top: 100px;
+        text-shadow: 0.1rem 0.1rem 0.8rem #000;
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.5em 1em;
+        background-color: rgb(164, 0, 230);
+        color: #59008d;
+        text-decoration: none;
+        border-radius: 0.2em;
+        -webkit-border-radius: 0.2em;
+        -moz-border-radius: 0.2em;
+        -ms-border-radius: 0.2em;
+        -o-border-radius: 0.2em;
+        border-bottom: 2px solid rgb(47, 0, 68);
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+        text-align: center;
+}
+    .line{
+        border-bottom: 2px solid #90dfff;
+        width: 14px;
+        display: block;
+        margin-bottom: 3px;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+}
+    .label_toggle_nav{
+        position: relative;
+        top: 1.65rem;
+    }
+    .button{
+        margin-right: 200px;
+    }
+}
+/* End Fitt Size */
