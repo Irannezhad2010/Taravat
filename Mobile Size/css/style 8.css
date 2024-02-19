@@ -1,0 +1,117 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.ttf)format(ttf),
+    url(../fonts/Vazir.woff)format(woff),
+    url(../fonts/Vazir.woff2)format(woff2),;
+}
+@font-face {
+    font-family: tanha;
+    src: url(../fonts/تنها.ttf)format(ttf),
+    url(../fonts/تنها.woff)format(woff),
+    url(../fonts/تنها.woff2)format(woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* نام ها و یاد ها */
+body{
+    direction: rtl;
+    background-image: url(../../picture/purple\ and\ blue\ stars\ galaxy.jpg);
+    background-size: cover;
+}
+.container{
+    max-width: 570px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+
+}
+.section_nav{
+       width: 100%;
+       background-color: #ffffff;
+       height: 6100px;
+       margin-top: 0.5rem;
+       margin-bottom: 3rem;
+       border-radius: 12px; 
+       -webkit-border-radius: 12px;
+       -moz-border-radius:12px ;
+       -ms-border-radius:12px ;
+       -o-border-radius:12px ;
+       box-shadow: 0 10px 20px 0 #000;
+}
+button{
+    font-family: vazir;
+    font-size: 45px;
+    width: 530px;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 21px;
+    background-color: rgba(29, 29, 255, 0.945);
+    color: rgb(86, 241, 247);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+h1{
+    color: black;
+    margin-left: 20px;
+    font-family: tanha;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.btn-start1{
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    background-color: rgb(142, 242, 255);
+    color: #006eff;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid rgb(0, 243, 243);
+    transition: 1s;
+    font-family: tanha;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    margin-right: 130px;
+    margin-top: 5rem;
+}
+.btn-start1:hover{
+    background-color: rgb(136, 0, 118);
+    border-bottom: 2px solid rgb(68, 0, 3);
+    color: #ffffff;
+}
+.btn-start2{
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    background-color: rgb(255, 0, 242);
+    color: #320344;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid rgb(151, 24, 141);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    font-family: tanha;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    margin-right: 30px;
+    margin-top: 1rem;
+}
+.btn-start2:hover{
+    background-color: rgb(36, 255, 208);
+    border-bottom: 2px solid rgb(0, 187, 146);
+    color: #2600ff;
+}
+audio{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 8rem;
+}
+/* پایان نام ها و یاد ها */
